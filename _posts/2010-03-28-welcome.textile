@@ -1,6 +1,13 @@
 ---
-layout: default
+layout: post
 title: Mein neues Jekyll Blog auf Github.com
 ---
 
-Welcome @ my new github powered blog
+h1. Blog 2.0
+
+ich habe mich gestern, sehr spontan dazu entschlossen das Blog mit neuer Technik wiederaufleben zu lassen.
+
+Ich habe ange Zeit versucht meine eigene Ruby on Rails Blog Software zu schreiben. 
+Das ist aber für einen Teilzeit Programmierer sehr aufwendig, und die Sicherheitsrisiken einer schlecht gemachten Rails Anwendungen sind 
+auch nicht zu verachten.
+
