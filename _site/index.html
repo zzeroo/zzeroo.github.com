@@ -8,9 +8,7 @@
     
     <title>HTML5 and CSS3 Layout</title>
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
-    <!-- 
     <link rel="stylesheet" type="text/css" href="/css/style.css" />
-    -->
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" type="text/css" href="/css/syntax.css" />
     <!--[if IE]>
@@ -43,68 +41,14 @@
         <article class="hentry">
         
         
-  <h1 class="header"><a href="/2010/05/13/LastFM_Alternative.html">Lastfm_alternative</a></h1>
-  <h1>Alternative zu LastFM</h1>
-<p>LastFM ist ja nun nicht mehr kostenlos. Aber es wäre doch gelacht wenn der<br />
-Kommerz uns so zum weinen bring ;)</p>
-<p>Auf der Suche nach einer neuen Quelle, audiophieler Freuden bin ich auf<br />
-<a href="http://mixtape.me">Mixtape.me</a> gestoßen!</p>
-<p>Die Seite sieht auf den ersten Blick nicht besonders gut aus, aber wie so oft<br />
-versteckt sich unter der schnöden Oberfläche ein Diamant.</p>
-  <em>13 May 2010.</em>
-
-  <h1 class="header"><a href="/2010/04/01/Testing_a_Patch_in_Ubuntu.html">Einen Patch unter Ubuntu testen</a></h1>
-  <p>Testing a patch</p>
-<p>Sometimes a developer might ask you to test a quick patch he came up with.<br />
-Below an example how to do that for modemmanager. If your bug is for some<br />
-other package, just replace the package name</p>
-<ol>
-	<li>get build dependencies<br />
-sudo apt-get install build-essential fakeroot devscripts<br />
-sudo apt-get build-dep modemmanager</li>
-</ol>
-<ol>
-	<li>get sources<br />
-sudo apt-get source modemmanager</li>
-</ol>
-<ol>
-	<li>cd into the source directory<br />
-cd modemmanager-*/</li>
-</ol>
-<ol>
-	<li>apply the patch (note that -p1 could also be -p0 if the patch was created</li>
-	<li>without an extra prefix in the diff path)<br />
-patch -p1 &lt; /tmp/yourdownloadedpatch.diff</li>
-</ol>
-<ol>
-	<li>build binaries only without signing<br />
-debuild -b -uc</li>
-</ol>
-<ol>
-	<li>packages are produced in parent directory<br />
-cd ../</li>
-</ol>
-<ol>
-	<li>install all nm packages<br />
-sudo dpkg -i modemmanager*.deb</li>
-</ol>
-<p>Note that you didnt change the version of the package. so to get back to the<br />
-&#8220;official&#8221; current version you need to do something like:</p>
-sudo apt-get install &#8212;reinstall modemmanager
-if you installed other packages from the build, do the same for them.
-  <em>01 April 2010.</em>
-
-  <h1 class="header"><a href="/2010/03/28/welcome.html">Mein neues Jekyll Blog auf Github.com</a></h1>
-  
-	<ol>
-		<li>Blog 2.0</li>
-	</ol><p>ich habe mich gestern, sehr spontan dazu entschlossen das Blog mit neuer Technik wiederaufleben zu lassen.</p>
-<p>Ich habe ange Zeit versucht meine eigene Ruby on Rails Blog Software zu schreiben. <br />
-Das ist aber für einen Teilzeit Programmierer sehr aufwendig, und die Sicherheitsrisiken einer schlecht gemachten Rails Anwendungen sind <br />
-auch nicht zu verachten.</p>
-<p>2010/03/28/welcome.html</p>
-<p>Liquid error: No such file or directory &#8211; pygmentize -l ruby -O encoding=utf-8 -f html</p>
-  <em>28 March 2010.</em>
+  <h1 class="header"><a href="/2010/09/03/neues_blog.html">Mein neues Jekyll Blog auf Github.com</a></h1>
+  <p>Sorry,</p>
+<p>ich habe erst letzte Woche gemerkt das dass Blog offline ist.</p>
+<p>Ich habe auch keine richtige Lust/ Zeit das in nächste Zeit wieder einzurichten. Ich hab mich desshalb entschlossen das Blog auf die Webseite von http://github.com umzuleiten. Deren Server sind viel sicherer und sicher auch um ein Vielfaches schneller.</p>
+<p>Die Links zum Board werde ich gleich an der gewohnten Stelle einfügen.</p>
+<p>Haut rein und bis bald.<br />
+Stefan</p>
+  <em>03 September 2010.</em>
 
 
 

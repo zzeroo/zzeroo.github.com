@@ -1,0 +1,15 @@
+---
+layout: post
+title: Mein neues Jekyll Blog auf Github.com
+---
+
+Sorry,
+
+ich habe erst letzte Woche gemerkt das dass Blog offline ist.
+
+Ich habe auch keine richtige Lust/ Zeit das in nächste Zeit wieder einzurichten. Ich hab mich desshalb entschlossen das Blog auf die Webseite von http://github.com umzuleiten. Deren Server sind viel sicherer und sicher auch um ein Vielfaches schneller.
+
+Die Links zum Board werde ich gleich an der gewohnten Stelle einfügen.
+
+Haut rein und bis bald.
+Stefan
