@@ -1,9 +1,7 @@
 ---
 layout: post
-title: Speicher freigeben durch verferfen der Kernel Caches
+title: Speicher freigeben durch verwerfen der Kernel Caches
 ---
-
-p(meta). 2010-09-06
 
 Seit einigen Monaten habe ich immer wieder das gleiche Problem. Mein Notebook wird immer langsamer, offtmals reagiert die Mouse nur noch in Zeitlupe und taskwechsel gehen mehr als zäh voran.
 Das lässt in aller Regel auf zu wenig Speicher im System schließen. Ich habe in den Fällen immer versucht mit dem Befehl <code>top</code> den Prozess zu finden der den ganzen Speicher frist. Leider konnte ich nie einen Prozess finden der übermäßig viel Speicher verbraucht. 
