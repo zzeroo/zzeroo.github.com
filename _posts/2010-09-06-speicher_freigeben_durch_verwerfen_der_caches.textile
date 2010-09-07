@@ -10,7 +10,7 @@ Gestern nun bin ich auf diese "Webseite":http://www.timesys.com/blogs/joseph/fre
 
 Zudem ist das freigeben des Speicher "non destructive" d.h. ihr macht nichts kaputt wenn ihr den Cache freigebt ;)
 
-Hier sind einige Screenshots zu sehen ich habe die gerade eben angefertigt ohne das ich irgendwelche Probleme mit meinem System hatte. Zu erst die Ausgabe von <code>top</code>, @Mem:   1932432k total,  1176248k used,   756184k free@ wir haben also vorher 756184k Byte RAM frei. Die Befehlskette @free; sync ; echo 3 > /proc/sys/vm/drop_caches ; free@ zeigt nochmal den freien Speicher via @free@ dann wird das Datei system gesynct (alle Daten werden auf die Platte geschrieben) @sync@, nun wird der Cache geleert @echo 3 > /proc/sys/vm/drop_caches@ und zum Schluss nochmals der Speicherverbrauch angezeigt @freer@`.
+Hier sind einige Screenshots zu sehen ich habe die gerade eben angefertigt ohne das ich irgendwelche Probleme mit meinem System hatte. Zu erst die Ausgabe von <code>top</code>, @Mem:   1932432k total,  1176248k used,   756184k free@ wir haben also vorher 756184k Byte RAM frei. Die Befehlskette @free; sync ; echo 3 > /proc/sys/vm/drop_caches ; free@ zeigt nochmal den freien Speicher via @free@ dann wird das Datei system gesynct (alle Daten werden auf die Platte geschrieben) @sync@, nun wird der Cache geleert @echo 3 > /proc/sys/vm/drop_caches@ und zum Schluss nochmals der Speicherverbrauch angezeigt @free@.
 In diesem Fall haben wir nur ca. *300MB* RAM gewonnen. Ich hatte aber auch keinerlei Probleme mit meinem System.
 
 
