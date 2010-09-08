@@ -79,9 +79,9 @@ div.hr hr {
 code { 
   font-family: "Monaco", "Lucia Console", fixed;
   background-color: #DDD;  
+  white-space: nowrap;
   border-bottom: 1px solid #BBB;
   border-top: 1px solid #BBB;
-  white-space: nowrap;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -91,3 +91,7 @@ pre code {
   background: none;
   white-space: pre;
 }
+
+
+
+
