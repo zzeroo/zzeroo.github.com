@@ -2,9 +2,9 @@
 layout: post
 title: Speicher freigeben durch verwerfen der Kernel Caches
 ---
-
-Seit einigen Monaten habe ich immer wieder das gleiche Problem. Mein Notebook wird immer langsamer, offtmals reagiert die Mouse nur noch in Zeitlupe und taskwechsel gehen mehr als zäh voran.
-Das lässt in aller Regel auf zu wenig Speicher im System schließen. Ich habe in den Fällen immer versucht mit dem Befehl <code>top</code> den Prozess zu finden der den ganzen Speicher frist. Leider konnte ich nie einen Prozess finden der übermäßig viel Speicher verbraucht. 
+ 
+Seit einigen Monaten habe ich immer wieder das gleiche Problem. Mein Notebook wird immer langsamer, oftmals reagiert die Mouse nur noch in Zeitlupe und Taskwechsel gehen mehr als zäh voran.
+Das lässt in aller Regel auf zu wenig Speicher im System schließen. Ich habe in den Fällen immer versucht mit dem Befehl <code>top</code> den Prozess zu finden der den ganzen Speicher frisst. Leider konnte ich nie einen Prozess finden der übermäßig viel Speicher verbraucht. 
 
 Gestern nun bin ich auf diese "Webseite":http://www.timesys.com/blogs/joseph/freememory gestoßen die den Linux Kernel als Ursache vermutet. Vielmehr den Cache (Zwischenspeicher) des Kernels. Mit einfachen, auf der Seite genannten Befehlen kann man den Cache Speicher des Kernels freigben. Bei mir brachte das machmal bis zu 800 MB zusätzlich freien Speicher. Es lohnt sich also auf alle Fälle.
 
