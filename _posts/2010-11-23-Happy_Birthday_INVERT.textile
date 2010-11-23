@@ -15,7 +15,7 @@ ssh user@213.165.64.75 -i ssh_schluessel.ssh -L 127.0.0.2:4000:192.168.1.10:3389
 {% endhighlight %}
 
 Es entsteht also auf meinem Notebook unter der IP 127.0.0.2 sowie dem Port 4000 der Server 192.168.1.10 und dessen Port 3389 (Windows Remote Desktop) zur Verfügung. Wenn man sich wie in dem o.g. Beispiel mit einem Dienst verbindet der keine direkten Eingaben erwartet (Remote Desktop zum Beispiel) dann meldet die SSH @PTY allocation request failed on channel 1@. Diese Meldung ist harmlos.
-Der oben genannte Befehl ging bis Ubuntu 10.10 prima. Seit ich die frühe Alpha Version "Ubuntu 11.04 (Natty Narwhal)":http://cdimage.ubuntu.com/daily-live/current/ einsetze bricht die o.g. Verbindung ohne weitere Meldung ab. Die übliche Meldung @PTY allocation request failed on channel 1" ist aber der Schlüssel zu diesem Dilemma.
+Der oben genannte Befehl ging bis Ubuntu 10.10 prima. Seit ich die frühe Alpha Version "Ubuntu 11.04 (Natty Narwhal)":http://cdimage.ubuntu.com/daily-live/current/ einsetze bricht die o.g. Verbindung ohne weitere Meldung ab. Die übliche Meldung @PTY allocation request failed on channel 1@ ist aber der Schlüssel zu diesem Dilemma.
 
 Teilt man SSH gleich im Befehl mit das man keine Shell will (*-T*) dann kommt *a)* die Meldung nicht mehr und *b)* wird die SSH Verbindung nicht unterbrochen wenn wir keine PTY bekommen.
 Der oben genannte Befehl also nochmal, richtig ausgeschrieben:
