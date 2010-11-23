@@ -1,3 +1,4 @@
 server_port: 8080
 lsi: false
+markdown: rdiscount
 pygments: true

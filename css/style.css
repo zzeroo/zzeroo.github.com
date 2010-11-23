@@ -69,6 +69,7 @@ h4 { font-size: 80%; }
 h1 a, h2 a, h3 a{ color: #111; }
 
 div.hr {
+  margin-top: 55px;
   height: 15px;
   background: #fff url(/images/hr.png) repeat-x scroll center;
 }
