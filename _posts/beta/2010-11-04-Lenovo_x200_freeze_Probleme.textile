@@ -1,0 +1,9 @@
+
+Beschreibung der Funktion im Linux Kernel
+http://www.mjmwired.net/kernel/Documentation/laptops/disk-shock-protection.txt
+
+Hilfreich bei der formulierung der Shell Scripte
+http://www.linuxjournal.com/content/running-complex-commands-sudo
+
+=Zusätliche Informationen zum Thema
+http://www.thinkwiki.org/wiki/How_to_protect_the_harddisk_through_APS
