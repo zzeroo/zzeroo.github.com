@@ -1,10 +1,37 @@
+=Usage
+==Einrichtung der Umgebung
+Um Blogs schreiben zu können müssen div. Gems und Applicationen installiert werden.
+Die Gems werden mit "Bundler":http://gembundler.com/ verwaltet (siehe Gemfile im root der Application).
+
+Die Installation der Gems erfolgt über einen Rake Task (siehe Rakefile im root der Application)
+da wir zusätzlich zu den Gems auch noch ein paar Apps aus der Packetverwaltung des OS brauchen.
+
+*HINWEIS* Zur Zeit gehe ich davon aus das nur Ubuntu verwendet wird.
+
+@rake install@
+
+==Blog schreiben
+Neue Blogs müssen unter _posts/ gespeichert werden. Sie haben ein festes Grundgerüst und müssen im Dateinamen
+diversen Konventionen gehorchen.
+Aus diesem Grund habe ich einen weiteren Rake Task angelegt (rake post).
+Der Aufruf erfolgt in etwa so:
+
+@rake post Ein_Blog_Titel@
+
+Rake formt daraus dann die Datei *_posts/2010-09-06-ein_blog_titel.textile* wobei das Datum selbstverständlich
+dem aktuellem Datum entspricht.
 
 
+=Links
 
-Syle Ideen
+==Jekylls Homepage
+- https://github.com/mojombo/jekyll/wiki/install
+
+
+==Syle Ideen
 - http://webtint.net/tutorials/how-well-be-building-websites-in-5-years-html5-and-css3-layout/
 
 
-Komentarsystem
+==Komentarsystem
 - http://intensedebate.com
 
