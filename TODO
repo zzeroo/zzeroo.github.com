@@ -1,0 +1,5 @@
+- README weiter schreiben
+
+- Rake task post erweitern
+  - Einfügen des layout Kopfs
+  - Fehlermeldung entfernen
