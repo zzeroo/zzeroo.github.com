@@ -1,0 +1,16 @@
+---
+layout: post
+title: Virtualbox (Failed, trying without DKMS)
+---
+  
+Ich habe immer wieder Probleme beim neu erstellen der Virtualbox Kernel Module. Bekanntlicher weise geht das ja via @/etc/init.d/vboxdrv setup@ oder auf die neue Art @service vboxdrv setup@.
+Die Ursache das das mit dieserse Fehlermeldung abbricht ist recht simpel ...
+
+{% highlight bash %}
+  (Failed, trying without DKMS)
+  Recompiling VirtualBox kernel modules ...failed!
+    (Look at /var/log/vbox-install.log to find out what went wrong)
+{% endhighlight %}
+
+... in meinem Falle fehlten immer die passenden Kernel Header zu meinem Linux Kernel. Unter Ubuntu könnt ihr mit @sudo aptitude install linux-headers-`uname -r`@ diese herunterladen und installieren. Danach funktioniert @service vboxdrv setup@ und die Virtualbox startet wieder fehlerfrei
+
